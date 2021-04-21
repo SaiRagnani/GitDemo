@@ -28,6 +28,7 @@ class AddCustomer:
         self.driver = driver
 
     def clickOnCustomersMenu(self):
+        print ("this is done to verify the checkin ")
         self.driver.find_element_by_xpath(self.lnkCustomers_menu_xpath).click()
 
     def clickOnCustomersMenuItem(self):
