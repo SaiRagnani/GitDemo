@@ -17,6 +17,8 @@ class Test_001_Login:
         self.driver = setup
         self.logger.info("****Opening URL****")
         self.driver.get(self.baseURL)
+
+
         act_title=self.driver.title
 
         if act_title=="Your store. Login":
